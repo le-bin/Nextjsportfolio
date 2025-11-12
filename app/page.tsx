@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaExternalLinkAlt } from "react-icons/fa";
-import image1 from "../public/1.png"
-import image2 from "../public/2.jpg"
-import image3 from "../public/3.png"
-import image4 from "../public/4.png"
-import image5 from "../public/5.png"
-import image6 from "../public/6.jpg"
+import foodImg from "../public/Food ord.png"
+import aichat from "../public/aichat.jpg"
+import newssite from "../public/newss.jpg"
+import book from "../public/book.jpg"
+import eventt from "../public/event.jpg"
+
 
 
 export default function Home() {
@@ -188,7 +188,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 
    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
     <CardContent className="p-4">
-<Image src={image2} alt="project 2 " className="rounded-lg mb-4"/>
+<Image src={foodImg} alt="project 2 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
   
@@ -212,7 +212,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 
    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
     <CardContent className="p-4">
-<Image src={image3} alt="project 3 " className="rounded-lg mb-4"/>
+<Image src={newssite} alt="project 3 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
   <h3 className="font-medium">News Site</h3>
@@ -233,7 +233,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 
    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
     <CardContent className="p-4">
-<Image src={image4} alt="project 4 " className="rounded-lg mb-4"/>
+<Image src={aichat} alt="project 4 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
   <h3 className="font-medium">AI Chat Bot</h3>
@@ -254,7 +254,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 
    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
     <CardContent className="p-4">
-<Image src={image5} alt="project 5 " className="rounded-lg mb-4"/>
+<Image src={book} alt="project 5 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
   <h3 className="font-medium">Booking App</h3>
@@ -275,7 +275,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 
    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
     <CardContent className="p-4">
-<Image src={image6} alt="project 6 " className="rounded-lg mb-4"/>
+<Image src={eventt} alt="project 6 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
   <h3 className="font-medium">Event Management System</h3>
@@ -297,6 +297,72 @@ Collaborated with developers to implement UI components and ensure smooth integr
 
  </div>
           </motion.section>
+
+
+          {/* ------------------- CONTACT SECTION ------------------- */}
+<motion.section
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="space-y-8"
+>
+  <h2 className="text-3xl font-semibold">Contact Me</h2>
+
+  <form
+    action="https://formspree.io/f/xanaygqz"   // ← replace with your Formspree ID
+    method="POST"
+    className="space-y-4 max-w-lg mx-auto"
+  >
+    <div>
+      <label htmlFor="name" className="block text-sm font-medium mb-1">
+        Name
+      </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        required
+        placeholder="John Doe"
+        className="w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-zinc-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+
+    <div>
+      <label htmlFor="subject" className="block text-sm font-medium mb-1">
+        Subject
+      </label>
+      <input
+        type="text"
+        name="subject"
+        id="subject"
+        required
+        placeholder="Project inquiry"
+        className="w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-zinc-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+
+    <div>
+      <label htmlFor="message" className="block text-sm font-medium mb-1">
+        Message
+      </label>
+      <textarea
+        name="message"
+        id="message"
+        rows={4}
+        required
+        placeholder="Hi Lebin, I’d love to talk about…"
+        className="w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-zinc-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+      />
+    </div>
+
+    <Button
+      type="submit"
+      className="w-full rounded-full bg-linear-to-r from-rose-400 to-indigo-600 text-white font-medium py-2 transition-all hover:from-indigo-600 hover:to-rose-400 hover:scale-105"
+    >
+      Send Message
+    </Button>
+  </form>
+</motion.section>
           
         </main>
       </div>
