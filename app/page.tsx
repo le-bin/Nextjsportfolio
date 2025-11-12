@@ -79,9 +79,9 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               className="flex items-center gap-4 mt-4"
             >
-              <Button className="rounded-full bg-linear-to-r from-rose-400 to-indigo-600 text-white font-medium px-6 py-2 transition-all duration-300 hover:from-indigo-600 hover:to-rose-400 hover:scale-105 shadow-md">
+              <Link href={"/cv.pdf"} className="cursor-pointer rounded-full bg-linear-to-r from-rose-400 to-indigo-600 text-white font-medium px-6 py-2 transition-all duration-300 hover:from-indigo-600 hover:to-rose-400 hover:scale-105 shadow-md" download>
                 Resume
-              </Button>
+              </Link>
               <Link href="https://github.com/le-bin" className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white">
                 <FaGithub className="w-6 h-6"/>
               </Link>
