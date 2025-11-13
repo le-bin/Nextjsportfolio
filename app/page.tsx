@@ -12,6 +12,7 @@ import aichat from "../public/aichat.jpg"
 import newssite from "../public/newss.jpg"
 import book from "../public/book.jpg"
 import eventt from "../public/event.jpg"
+import emaill from "../public/emaill.jpg"
 
 
 
@@ -171,7 +172,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
                 <span className="font-medium text-black dark:text-white">Developer Tools:</span> Git, GitHub
               </p>
               <p>
-                <span className="font-medium text-black dark:text-white">Design Tools:</span> Figma, Framer
+                <span className="font-medium text-black dark:text-white">Design Tools:</span> Figma, Framer, Miro
               </p>
             </div>
           </motion.section>
@@ -192,7 +193,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 <div className="flex items-center justify-between">
 <div>
   
-  <h3 className="font-medium">Food Ordering System</h3>
+  <h3 className="font-medium pb-2">Food Ordering System</h3>
     <div className="flex gap-2">
                       <Link href="https://github.com/Saameerr/Food-ordering-system" >
                         <FaGithub className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
@@ -200,7 +201,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
                      
                     </div>
   
-  <p className="text-sm text-gray-600 dark:text-gray-400">MERN Stack</p>
+  <p className="text-sm text-gray-600 dark:text-gray-400 pt-2">MERN Stack</p>
  
 
 </div>
@@ -215,7 +216,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 <Image src={newssite} alt="project 3 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
-  <h3 className="font-medium">News Site</h3>
+  <h3 className="font-medium pb-2">News Site</h3>
    <div className="flex gap-2">
                       <Link href="https://github.com/le-bin/NewsSite">
                         <FaGithub className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
@@ -224,7 +225,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
                         <FaExternalLinkAlt className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
                       </Link>
                     </div>
-  <p className="text-sm text-gray-600 dark:text-gray-400">React, Rest API</p>
+  <p className="text-sm text-gray-600 dark:text-gray-400 pt-2">React, Rest API</p>
 </div>
 <Button variant="ghost" size = "icon" ></Button>
 </div>
@@ -236,16 +237,16 @@ Collaborated with developers to implement UI components and ensure smooth integr
 <Image src={aichat} alt="project 4 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
-  <h3 className="font-medium">AI Chat Bot</h3>
+  <h3 className="font-medium pb-2">AI Chat Bot</h3>
     <div className="flex gap-2">
                       <Link href="https://github.com/le-bin/Chatai-Js" >
-                        <FaGithub className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
+                        <FaGithub className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white " />
                       </Link>
                       <Link href="https://aichatbotdynamic-faun-eb3d7b.netlify.app/form.html" >
                         <FaExternalLinkAlt className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
                       </Link>
                     </div>
-  <p className="text-sm text-gray-600 dark:text-gray-400">Html, CSS, Javascript</p>
+  <p className="text-sm text-gray-600 dark:text-gray-400 pt-2">Html, CSS, Javascript</p>
 </div>
 <Button variant="ghost" size = "icon" ></Button>
 </div>
@@ -257,7 +258,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
 <Image src={book} alt="project 5 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
-  <h3 className="font-medium">Booking App</h3>
+  <h3 className="font-medium pb-2">Booking App</h3>
    <div className="flex gap-2">
                       <Link href="https://github.com/le-bin/Booking-App" >
                         <FaGithub className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
@@ -266,7 +267,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
                         <FaExternalLinkAlt className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
                       </Link>
                     </div>
-  <p className="text-sm text-gray-600 dark:text-gray-400">React</p>
+  <p className="text-sm text-gray-600 dark:text-gray-400 pt-2">React</p>
 </div>
 <Button variant="ghost" size = "icon" ></Button>
 </div>
@@ -278,20 +279,39 @@ Collaborated with developers to implement UI components and ensure smooth integr
 <Image src={eventt} alt="project 6 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
 <div>
-  <h3 className="font-medium">Event Management System</h3>
+  <h3 className="font-medium pb-2">Event Management System</h3>
    <div className="flex gap-2">
                      
                       <Link href="https://www.behance.net/gallery/232131793/Event-Management-System" >
                         <FaExternalLinkAlt className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
                       </Link>
                     </div>
-  <p className="text-sm text-gray-600 dark:text-gray-400">Figma</p>
+  <p className="text-sm text-gray-600 dark:text-gray-400 pt-2">Figma</p>
 </div>
 <Button variant="ghost" size = "icon" ></Button>
 </div>
     </CardContent>
   </Card>
   
+
+    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+    <CardContent className="p-4">
+<Image src={emaill} alt="project 6 " className="rounded-lg mb-4"/>
+<div className="flex items-center justify-between">
+<div>
+  <h3 className="font-medium pb-2">Redesign mail page</h3>
+   <div className="flex gap-2">
+                     
+                      <Link href="https://www.figma.com/design/k81mOrvUQZoNZwMPVjRbmn/Traniee?node-id=0-1&p=f&t=G5DwwsrS2lbcSDl1-0" >
+                        <FaExternalLinkAlt className="w-5 h-5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white" />
+                      </Link>
+                    </div>
+  <p className="text-sm text-gray-600 dark:text-gray-400 pt-2">Figma</p>
+</div>
+<Button variant="ghost" size = "icon" ></Button>
+</div>
+    </CardContent>
+  </Card>
 
 
 
