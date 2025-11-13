@@ -187,7 +187,8 @@ Collaborated with developers to implement UI components and ensure smooth integr
  <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
  
 
-   <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+  <Card className="bg-gray-50 dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-rose-400/20 cursor-pointer">
+
     <CardContent className="p-4">
 <Image src={foodImg} alt="project 2 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
@@ -211,7 +212,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
     </CardContent>
   </Card>
 
-   <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+  <Card className="bg-gray-50 dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-rose-400/20 cursor-pointer">
     <CardContent className="p-4">
 <Image src={newssite} alt="project 3 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
@@ -232,7 +233,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
     </CardContent>
   </Card>
 
-   <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+   <Card className="bg-gray-50 dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-rose-400/20 cursor-pointer">
     <CardContent className="p-4">
 <Image src={aichat} alt="project 4 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
@@ -253,7 +254,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
     </CardContent>
   </Card>
 
-   <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+   <Card className="bg-gray-50 dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-rose-400/20 cursor-pointer">
     <CardContent className="p-4">
 <Image src={book} alt="project 5 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
@@ -274,7 +275,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
     </CardContent>
   </Card>
 
-   <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+   <Card className="bg-gray-50 dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-rose-400/20 cursor-pointer">
     <CardContent className="p-4">
 <Image src={eventt} alt="project 6 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
@@ -294,7 +295,7 @@ Collaborated with developers to implement UI components and ensure smooth integr
   </Card>
   
 
-    <Card className="bg-gray-50 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 transition-transform duration-300 hover:scale-100 cursor-pointer">
+  <Card className="bg-gray-50 dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-rose-400/20 cursor-pointer">
     <CardContent className="p-4">
 <Image src={emaill} alt="project 6 " className="rounded-lg mb-4"/>
 <div className="flex items-center justify-between">
